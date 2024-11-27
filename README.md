@@ -1,24 +1,24 @@
-# sarahahmed.github.io
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sarah Ahmed - Mobile Developer</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <style>
-        :root {
-            --primary-color: #6A1B9A;
-            --secondary-color: #E1BEE7;
-            --accent-color: #9C27B0;
-            --background-color: #F3E5F5;
-            --text-color: #4A148C;
-            --light-text-color: #FFFFFF;
+        :root { 
+            --primary-color: #6A1B9A; 
+            --secondary-color: #E1BEE7; 
+            --accent-color: #9C27B0; 
+            --background-color: #F3E5F5; 
+            --text-color: #4A148C; 
+            --light-text-color: #FFFFFF; 
         }
 
         * {
             margin: 0;
             padding: 0;
-            box-sizing: border-box;
+            box-sizing: border-box; 
         }
 
         body {
@@ -263,7 +263,7 @@
 
     <section id="home" class="hero">
         <h1 class="fade-in">Sarah Ahmed</h1>
-        <p class="fade-in">Mobile Developer </p>
+        <p class="fade-in">Mobile Developer</p>
         <a href="#projects" class="btn fade-in">View My Work</a>
     </section>
 
@@ -274,122 +274,88 @@
                 <div class="about-text">
                     <p>Hello! I'm Sarah Ahmed, a fresh graduate from Assiut University's Faculty of Computers and Informatics. I'm passionate about mobile development and currently volunteering as a Monitor at Google Developer Student Club (GDSC).</p>
                     <p>My journey in mobile development began during my university years, where I honed my skills in Java, Kotlin, OOP principles, Dart, and Flutter. I'm dedicated to applying these skills to real-world projects and staying updated with the latest technological advancements.</p>
-                    <p>As a GDSC Monitor, I help students with mobile development courses, providing feedback and assisting with problem-solving to ensure effective learning outcomes. I'm excited about the opportunity to grow in the field of mobile development and contribute to innovative projects.</p>
+                    <p>As a GDSC Monitor, I help students with mobile development courses, providing feedback and assisting with problem-solving to ensure effective learning outcomes. I'm excited about the opportunity to grow in the field of mobile development and contribute to innovative projects that make an impact.</p>
                 </div>
                 <div class="about-image">
-                    <img src="20.jpg" alt="Sarah Ahmed">
+                    <img src="sarah.jpg" alt="Sarah Ahmed">
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="projects">
-        <div class="container">
-            <h2 class="section-title">My Projects</h2>
-            <div class="projects">
-                <div class="project fade-in" onclick="window.open('demo1.html', '_blank')">
-                    <div class="project-carousel">
-                        <img src="4.jpg" alt="Digital Copyrights 1" class="active">
-                        <img src="5.jpg" alt="Digital Copyrights 2">
-                        <img src="6.jpg" alt="Digital Copyrights 3">
-                        <img src="7.jpg" alt="Digital Copyrights 3">
-                        <img src="8.jpg" alt="Digital Copyrights 3">
-                        <img src="9.jpg" alt="Digital Copyrights 3">
-                        
-                    
-                    </div>
-                    <div class="project-info">
-                        <h3>Digital Copyrights (Graduation Project)</h3>
-                        <p>A social network platform with a unique feature to detect and prevent unauthorized sharing of digital content. Built using Django REST framework and Flutter.</p>
-                    </div>
-                </div>
-                <div class="project fade-in" onclick="window.open('demo2.html', '_blank')">
-                    <div class="project-carousel">
-                        <img src="11.jpg" alt="Digital Copyrights 3">
-                        <img src="12.jpg" alt="Digital Copyrights 3">
-                        <img src="13.jpg" alt="Digital Copyrights 3">
-                        <img src="14.jpg" alt="Digital Copyrights 3">
-                        <img src="15.jpg" alt="Digital Copyrights 3">
+    <section id="projects" class="projects">
+        <h2 class="section-title">My Projects</h2>
 
-                    </div>
-                    <div class="project-info">
-                        <h3>ChatApp</h3>
-                        <p>Developed a simple ChatApp using Java, which allows users to create accounts and send
-                            text messages to one another.</p>
-                            <p>The project features a basic user registration and login system, enabling account creation
-                            and authentication. Once logged in, users can exchange text messages in real-time with
-                            other registered accounts.
-                            </p>
-                    </div>
-                </div>
-                
+        <!-- Project 1 -->
+        <div class="project fade-in" onclick="window.open('digital_copyright.html', '_blank')">
+            <div class="project-carousel">
+                <img src="project1_1.jpg" alt="Digital Copyright 1" class="active">
+                <img src="project1_2.jpg" alt="Digital Copyright 2">
+                <img src="project1_3.jpg" alt="Digital Copyright 3">
+            </div>
+            <div class="project-info">
+                <h3>Digital Copyrights</h3>
+                <p>A social network platform that helps prevent unauthorized sharing of digital content using Python, Flutter, Django, and PostgreSQL.</p>
+            </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project fade-in" onclick="window.open('todo_app.html', '_blank')">
+            <div class="project-carousel">
+                <img src="todo1.jpg" alt="Todo App 1" class="active">
+                <img src="todo2.jpg" alt="Todo App 2">
+                <img src="todo3.jpg" alt="Todo App 3">
+            </div>
+            <div class="project-info">
+                <h3>Todo App</h3>
+                <p>A simple yet effective task management app built with Flutter, Dart, and a local database.</p>
+            </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project fade-in" onclick="window.open('news_app.html', '_blank')">
+            <div class="project-carousel">
+                <img src="news1.jpg" alt="News App 1" class="active">
+                <img src="news2.jpg" alt="News App 2">
+                <img src="news3.jpg" alt="News App 3">
+            </div>
+            <div class="project-info">
+                <h3>News App</h3>
+                <p>A dynamic news app that delivers the latest articles using Flutter and a REST API.</p>
+            </div>
+        </div>
+
+        <!-- Project 4: Health Trial -->
+        <div class="project fade-in" onclick="window.open('health_trial.html', '_blank')">
+            <div class="project-carousel">
+                <img src="health1.jpg" alt="Health Trial 1" class="active">
+                <img src="health2.jpg" alt="Health Trial 2">
+                <img src="health3.jpg" alt="Health Trial 3">
+            </div>
+            <div class="project-info">
+                <h3>Health Trial</h3>
+                <p>A health tracking app developed as part of a team project. This app combines a user-friendly interface with features like activity tracking, water intake monitoring, and exercise plans. Built using Flutter and Firebase.</p>
             </div>
         </div>
     </section>
 
     <section id="skills">
-        <div class="container">
-            <h2 class="section-title">My Skills</h2>
-            <div class="skills">
-                <div class="skill fade-in">Java</div>
-                <div class="skill fade-in">Dart</div>
-                <div class="skill fade-in">Flutter</div>
-                <div class="skill fade-in">OOP</div>
-                <div class="skill fade-in">UI/UX Design</div>
-                <div class="skill fade-in">REST APIs</div>
-            </div>
+        <h2 class="section-title">My Skills</h2>
+        <div class="skills">
+            <div class="skill fade-in"><i class="fab fa-java"></i> Java</div>
+            <div class="skill fade-in"><i class="fab fa-dart"></i> Dart</div>
+            <div class="skill fade-in"><i class="fab fa-flutter"></i> Flutter</div>
+            <div class="skill fade-in"><i class="fas fa-cogs"></i> OOP</div>
+            <div class="skill fade-in"><i class="fas fa-pencil-ruler"></i> UI/UX Design</div>
+            <div class="skill fade-in"><i class="fas fa-server"></i> REST APIs</div>
         </div>
     </section>
 
     <footer id="contact">
         <div class="container">
             <p>&copy; 2024 Sarah Ahmed. All rights reserved.</p>
-            <p>Email: saraahmed512@gmail.com | Phone: +201066401241</p>
-            <p>Location: Assiut, Egypt</p>
+            <p><i class="fas fa-envelope"></i> sarah@example.com</p>
         </div>
     </footer>
-
-    <script>
-        document.addEventListener('DOMContentLoaded', (event) => {
-            const fadeElems = document.querySelectorAll('.fade-in');
-            const observer = new IntersectionObserver((entries) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        entry.target.style.opacity = 1;
-                        entry.target.style.transform = 'translateY(0)';
-                    }
-                });
-            }, {
-                threshold: 0.1
-            });
-
-            fadeElems.forEach(elem => {
-                observer.observe(elem);
-            });
-
-            // Smooth scrolling for navigation links
-            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-                anchor.addEventListener('click', function (e) {
-                    e.preventDefault();
-                    document.querySelector(this.getAttribute('href')).scrollIntoView({
-                        behavior: 'smooth'
-                    });
-                });
-            });
-
-            // Automated image carousel for projects
-            const carousels = document.querySelectorAll('.project-carousel');
-            carousels.forEach(carousel => {
-                const images = carousel.querySelectorAll('img');
-                let currentIndex = 0;
-
-                setInterval(() => {
-                    images[currentIndex].classList.remove('active');
-                    currentIndex = (currentIndex + 1) % images.length;
-                    images[currentIndex].classList.add('active');
-                }, 3000); // Change image every 3 seconds
-            });
-        });
-    </script>
 </body>
 </html>
